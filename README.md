@@ -13,3 +13,8 @@ NUM=1000 SIZE=10 RAND=true bash <(curl https://raw.githubusercontent.com/ozota1/
 ```bash
 bash <(curl https://raw.githubusercontent.com/ozota1/cmdbase/master/count-inotify-watcher.sh)
 ```
+
+## check free size of current directory
+```bash
+df -kh .
+```
