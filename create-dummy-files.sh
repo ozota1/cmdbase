@@ -1,5 +1,5 @@
 # create dummy many files
-# usage: NUM=1000 SIZE=10 RAND=true bash <(curl https://raw.githubusercontent.com/ozota1/cmdbase/master/create-zero-files.sh)
+# usage: NUM=1000 SIZE=10 RAND=true bash <(curl https://raw.githubusercontent.com/ozota1/cmdbase/master/create-dummy-files.sh)
 # NUM: number of files. default is 100
 # SIZE: size of files. default is 10
 # RAND: flag for create random content file. default is zero content file 
