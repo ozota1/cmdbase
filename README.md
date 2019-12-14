@@ -24,3 +24,8 @@ df -kh .
 ```bash
 grep processor /proc/cpuinfo | wc -l
 ```
+
+## find file contains "pattern" under current directory
+```bash
+grep -rnw . -e "pattern"
+```
