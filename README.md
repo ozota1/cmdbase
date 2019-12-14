@@ -34,3 +34,8 @@ grep -rnw . -e "pattern"
 ```bash
 nc -vz host port
 ```
+
+## memory stress
+```bash
+/dev/null < $(yes)
+```
