@@ -19,3 +19,8 @@ bash <(curl https://raw.githubusercontent.com/ozota1/cmdbase/master/count-inotif
 ```bash
 df -kh .
 ```
+
+## count CPU Logical cores
+```bash
+grep processor /proc/cpuinfo | wc -l
+```
