@@ -29,3 +29,8 @@ grep processor /proc/cpuinfo | wc -l
 ```bash
 grep -rnw . -e "pattern"
 ```
+
+## test tcp connection
+```bash
+nc -vz host port
+```
